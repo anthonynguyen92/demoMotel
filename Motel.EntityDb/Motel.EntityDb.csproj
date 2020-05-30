@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200323034715_TestIndentity.cs" />
+    <Compile Remove="Migrations\20200323034715_TestIndentity.Designer.cs" />
+    <Compile Remove="Migrations\20200323065443_test1.cs" />
+    <Compile Remove="Migrations\20200323065443_test1.Designer.cs" />
+    <Compile Remove="Migrations\20200323070615_test1.cs" />
+    <Compile Remove="Migrations\20200323070615_test1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Motel.Utilities\Motel.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

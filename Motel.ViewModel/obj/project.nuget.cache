@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BDbL8m6eCuxCW3M6idferDfqWQNHQ5wAy5a/SlucZhrO9fRjCfhMV+PyA6YhyUvxbVZ5o+fz9O/Nk96LVM0YzA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\MotelManager\\Motel.ViewModel\\Motel.ViewModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thang\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\thang\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\thang\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
+    "C:\\Users\\thang\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\thang\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\thang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
